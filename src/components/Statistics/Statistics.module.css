@@ -1,0 +1,39 @@
+.statistics {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.title {
+  text-align: center;
+  font-weight: 500;
+  font-size: 32px;
+}
+
+.statList {
+  border-top: 1px solid black;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  width: 120px;
+  padding: 10px 0;
+  background-color: orange;
+}
+
+.item:not(:last-child) {
+  border-right: 1px solid black;
+}
+
+.label {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.percentage {
+  font-size: 20px;
+}
