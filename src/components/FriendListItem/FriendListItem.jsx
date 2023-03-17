@@ -13,3 +13,10 @@ export function FriendListItem({ friend: { avatar, name, isOnline } }) {
     </>
   );
 }
+
+FriendListItem.propTypes = {
+  friend: PropTypes.object,
+  avatar: PropTypes.string,
+  name: PropTypes.string,
+  isOnline: PropTypes.bool,
+};
