@@ -1,0 +1,17 @@
+.status {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+}
+
+.online {
+  background-color: green;
+}
+
+.offline {
+  background-color: red;
+}
+
+.name {
+  font-size: 32px;
+}
