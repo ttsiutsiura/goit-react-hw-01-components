@@ -1,0 +1,35 @@
+.transactionHistory {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+  border-collapse: collapse;
+  overflow: hidden;
+}
+
+.tableHeader {
+  padding: 12px;
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.tableHeaderCenter {
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+}
+
+.tableRow:nth-child(2n) {
+  background-color: #dcdcdc;
+}
+
+.tableData {
+  padding: 12px;
+  width: 300px;
+  text-align: center;
+  font-size: 32px;
+}
+
+.tableDataCenter {
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+}

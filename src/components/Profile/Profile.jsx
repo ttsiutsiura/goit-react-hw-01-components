@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
 import css from './Profile.module.css';
+import clsx from 'clsx';
 
 export function Profile({
   username,
@@ -24,7 +25,7 @@ export function Profile({
           <span className={css.label}>Views</span>
           <span className={css.quantity}>{views}</span>
         </li>
-        <li className={`${css.statsItem} ${css.statsCenter}`}>
+        <li className={clsx(css.statsItem, css.statsCenter)}>
           <span className={css.label}>Followers</span>
           <span className={css.quantity}>{followers}</span>
         </li>
