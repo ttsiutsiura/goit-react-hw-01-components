@@ -1,4 +1,4 @@
-import PropTypes, { object } from 'prop-types';
+import PropTypes from 'prop-types';
 import css from './TransactionHistory.module.css';
 import clsx from 'clsx';
 
