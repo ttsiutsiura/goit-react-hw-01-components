@@ -10,7 +10,7 @@ function getRandomColor() {
 export function Statistics({ title, stats }) {
   return (
     <div className={css.statistics}>
-      <div className={css.titleContainer}>{title && <h2 className={css.title}>{title}</h2>}</div>
+      {title && <h2 className={css.title}>{title}</h2>}
 
       <ul className={css.statList}>
         <li style={{ backgroundColor: getRandomColor() }} className={css.item}>

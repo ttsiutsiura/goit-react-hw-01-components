@@ -6,10 +6,6 @@
       1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.titleContainer {
-  min-height: 28px;
-}
-
 .title {
   text-align: center;
   font-weight: 500;
